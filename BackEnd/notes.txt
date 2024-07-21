@@ -1,0 +1,4 @@
+
+docker build -t my-react-app-image .
+
+docker run --name my-backend-container -p 8000:8000 backend-image:v1
